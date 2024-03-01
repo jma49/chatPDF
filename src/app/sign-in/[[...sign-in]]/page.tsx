@@ -2,6 +2,8 @@ import { SignIn } from "@clerk/nextjs";
 
 export default function Page() {
     return (
-        <SignIn />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -trasnlate-y-1/2">
+            <SignIn />
+        </div>
     );
 }
